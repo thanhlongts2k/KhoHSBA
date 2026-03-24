@@ -44,7 +44,11 @@ Quản lý định danh hồ sơ và liên kết dữ liệu số hóa (PDF/XML)
 | `PdfPath` | VARCHAR(500) | URL/Path file PDF trên FPT Cloud Storage |
 | `IsSigned` | BIT | Đã hoàn tất ký số nội bộ chưa |
 | `Status` | INT | 0: Lưu kho, 1: Đang mượn, 2: Đang giám định |
-
+| `mavaovien` | VARCHAR(500) | Mã vào viện|
+| `loaibenhan` | VARCHAR(500) | loại bệnh án |
+| `ketquadieutri` | VARCHAR(500) | kết quả điều trị |
+| `tinhtrangravien` | VARCHAR(500) | tình trạng ra viện |
+| `khoa` | VARCHAR(500) | Khoa phòng |
 ---
 
 ## 3. Phân hệ Quy trình Mượn trả (Borrowing Workflow)
